@@ -88,5 +88,9 @@ class BookingViewController: UIViewController {
         numberOfChildrensLabel.text = Int(sender.value).description
     }
     
+    @IBAction func selectRoomButtonClicked(_ sender: Any) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SelectRoomViewController")
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
 }

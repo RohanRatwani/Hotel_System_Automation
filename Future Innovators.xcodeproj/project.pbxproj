@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		041AC8EC222ABFB00066637F /* SelectRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041AC8EB222ABFB00066637F /* SelectRoomViewController.swift */; };
+		0460409F222AEEE80070DD88 /* SelectRoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460409D222AEEE80070DD88 /* SelectRoomCollectionViewCell.swift */; };
+		046040A0222AEEE80070DD88 /* SelectRoomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0460409E222AEEE80070DD88 /* SelectRoomCollectionViewCell.xib */; };
 		048F2379222A9D5B00A8BFE4 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */; };
 		04D5CCF1222A530B005BD0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */; };
 		04D5CCF3222A530B005BD0D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CCF2222A530B005BD0D8 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		041AC8EB222ABFB00066637F /* SelectRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomViewController.swift; sourceTree = "<group>"; };
+		0460409D222AEEE80070DD88 /* SelectRoomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomCollectionViewCell.swift; sourceTree = "<group>"; };
+		0460409E222AEEE80070DD88 /* SelectRoomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectRoomCollectionViewCell.xib; sourceTree = "<group>"; };
 		048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		04D5CCED222A530B005BD0D8 /* Future Innovators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Future Innovators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */,
 				048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */,
 				041AC8EB222ABFB00066637F /* SelectRoomViewController.swift */,
+				0460409D222AEEE80070DD88 /* SelectRoomCollectionViewCell.swift */,
+				0460409E222AEEE80070DD88 /* SelectRoomCollectionViewCell.xib */,
 				04D5CCF4222A530B005BD0D8 /* Main.storyboard */,
 				04D5CCF7222A530E005BD0D8 /* Assets.xcassets */,
 				04D5CCF9222A530E005BD0D8 /* LaunchScreen.storyboard */,
@@ -240,6 +246,7 @@
 			files = (
 				04D5CCFB222A530E005BD0D8 /* LaunchScreen.storyboard in Resources */,
 				04D5CCF8222A530E005BD0D8 /* Assets.xcassets in Resources */,
+				046040A0222AEEE80070DD88 /* SelectRoomCollectionViewCell.xib in Resources */,
 				04D5CCF6222A530B005BD0D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041AC8EC222ABFB00066637F /* SelectRoomViewController.swift in Sources */,
+				0460409F222AEEE80070DD88 /* SelectRoomCollectionViewCell.swift in Sources */,
 				04D5CD1F222A83D7005BD0D8 /* SignUpViewController.swift in Sources */,
 				04D5CCF3222A530B005BD0D8 /* ViewController.swift in Sources */,
 				048F2379222A9D5B00A8BFE4 /* BookingViewController.swift in Sources */,

@@ -10,9 +10,14 @@ import UIKit
 
 class SelectRoomViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
+    @IBOutlet weak var selectRoomCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        selectRoomCollectionView.delegate = self
+        selectRoomCollectionView.dataSource = self
+        
+        self.selectRoomCollectionView.register(UINib(nibName: "SelectRoomCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "Cell")
         // Do any additional setup after loading the view.
     }
     
@@ -21,7 +26,7 @@ class SelectRoomViewController: UIViewController, UICollectionViewDelegate, UICo
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = UICollectionViewCell()
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as! SelectRoomCollectionViewCell
         return cell
     }
 
