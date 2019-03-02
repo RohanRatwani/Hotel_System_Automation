@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SignUpViewController.swift
 //  Future Innovators
 //
 //  Created by Jay Mehta on 02/03/19.
@@ -8,9 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
-    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var signupButton: UIButton!
+    @IBOutlet weak var fullNameTextField: UITextField!
+    @IBOutlet weak var phoneNumber: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -19,10 +21,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.barTintColor = UIColor.white
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: loginButton.backgroundColor]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: signupButton.backgroundColor]
         tapGesture.addTarget(self, action: #selector(closeKeyboards))
         view.addGestureRecognizer(tapGesture)
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view.
     }
     
     @objc func closeKeyboards(){
@@ -30,6 +32,7 @@ class ViewController: UIViewController {
         passwordTextField.resignFirstResponder()
     }
 
-
+    @IBAction func loginButtonClicked(_ sender: Any) {
+        navigationController?.popViewController(animated: true)
+    }
 }
-

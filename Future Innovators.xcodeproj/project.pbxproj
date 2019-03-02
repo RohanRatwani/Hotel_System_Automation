@@ -14,6 +14,7 @@
 		04D5CCFB222A530E005BD0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5CCF9222A530E005BD0D8 /* LaunchScreen.storyboard */; };
 		04D5CD06222A530E005BD0D8 /* Future_InnovatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CD05222A530E005BD0D8 /* Future_InnovatorsTests.swift */; };
 		04D5CD11222A530E005BD0D8 /* Future_InnovatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CD10222A530E005BD0D8 /* Future_InnovatorsUITests.swift */; };
+		04D5CD1F222A83D7005BD0D8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		04D5CD0C222A530E005BD0D8 /* Future InnovatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Future InnovatorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5CD10222A530E005BD0D8 /* Future_InnovatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_InnovatorsUITests.swift; sourceTree = "<group>"; };
 		04D5CD12222A530E005BD0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */,
 				04D5CCF2222A530B005BD0D8 /* ViewController.swift */,
+				04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */,
 				04D5CCF4222A530B005BD0D8 /* Main.storyboard */,
 				04D5CCF7222A530E005BD0D8 /* Assets.xcassets */,
 				04D5CCF9222A530E005BD0D8 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D5CD1F222A83D7005BD0D8 /* SignUpViewController.swift in Sources */,
 				04D5CCF3222A530B005BD0D8 /* ViewController.swift in Sources */,
 				04D5CCF1222A530B005BD0D8 /* AppDelegate.swift in Sources */,
 			);
