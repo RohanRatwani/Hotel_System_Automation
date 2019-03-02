@@ -236,9 +236,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lock" translatesAutoresizingMaskIntoConstraints="NO" id="eH7-t0-yti">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="date" translatesAutoresizingMaskIntoConstraints="NO" id="eH7-t0-yti">
                                 <rect key="frame" x="20" y="314" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -256,6 +256,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="SIGN UP" id="BAS-l1-dsS"/>
                     <connections>
+                        <outlet property="dateOfBirthTextField" destination="Cll-1l-iki" id="s5y-uu-eqh"/>
                         <outlet property="emailTextField" destination="lGz-HB-g1Z" id="oTg-Eq-IMI"/>
                         <outlet property="fullNameTextField" destination="F2n-TZ-iDp" id="pba-uN-Moh"/>
                         <outlet property="passwordTextField" destination="xDv-Zp-m1e" id="vsY-OC-sfv"/>
@@ -287,6 +288,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="date" width="50" height="50"/>
         <image name="email" width="100" height="100"/>
         <image name="full_name" width="64" height="64"/>
         <image name="lock" width="100" height="100"/>
