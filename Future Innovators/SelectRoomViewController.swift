@@ -26,8 +26,12 @@ class SelectRoomViewController: UIViewController, UICollectionViewDelegate, UICo
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath as IndexPath) as! SelectRoomCollectionViewCell
+        cell.selectRoomButton.addTarget(self, action: #selector(selectRoomClicked), for: .touchUpInside)
         return cell
     }
 
-    
+    @objc func selectRoomClicked(){
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ConfirmRoomViewController")
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }

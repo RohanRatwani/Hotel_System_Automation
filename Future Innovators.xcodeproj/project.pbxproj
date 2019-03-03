@@ -13,6 +13,8 @@
 		046040AA222B3E550070DD88 /* RoomControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046040A9222B3E550070DD88 /* RoomControlViewController.swift */; };
 		048F2379222A9D5B00A8BFE4 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */; };
 		04A44E30222B9509002126C3 /* HotelServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A44E2F222B9509002126C3 /* HotelServiceViewController.swift */; };
+		04A44E32222BA959002126C3 /* BookingConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A44E31222BA959002126C3 /* BookingConfirmationViewController.swift */; };
+		04A44E34222BA9C9002126C3 /* ConfirmRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A44E33222BA9C9002126C3 /* ConfirmRoomViewController.swift */; };
 		04D5CCF1222A530B005BD0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */; };
 		04D5CCF3222A530B005BD0D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CCF2222A530B005BD0D8 /* ViewController.swift */; };
 		04D5CCF6222A530B005BD0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5CCF4222A530B005BD0D8 /* Main.storyboard */; };
@@ -21,6 +23,9 @@
 		04D5CD06222A530E005BD0D8 /* Future_InnovatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CD05222A530E005BD0D8 /* Future_InnovatorsTests.swift */; };
 		04D5CD11222A530E005BD0D8 /* Future_InnovatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CD10222A530E005BD0D8 /* Future_InnovatorsUITests.swift */; };
 		04D5CD1F222A83D7005BD0D8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */; };
+		38E084E3C7FB092B32302466 /* Pods_Future_Innovators.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0737DCC10BFB71607781C9 /* Pods_Future_Innovators.framework */; };
+		6695626F0C2758ACEBB9369F /* Pods_Future_InnovatorsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852DF73D0FD5F99EF41769B3 /* Pods_Future_InnovatorsTests.framework */; };
+		A96D563C48C528EFEDFF8C55 /* Pods_Future_InnovatorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B1C861156FF0A5DA9FFC4B /* Pods_Future_InnovatorsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,8 @@
 		046040A9222B3E550070DD88 /* RoomControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomControlViewController.swift; sourceTree = "<group>"; };
 		048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
 		04A44E2F222B9509002126C3 /* HotelServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelServiceViewController.swift; sourceTree = "<group>"; };
+		04A44E31222BA959002126C3 /* BookingConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmationViewController.swift; sourceTree = "<group>"; };
+		04A44E33222BA9C9002126C3 /* ConfirmRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRoomViewController.swift; sourceTree = "<group>"; };
 		04D5CCED222A530B005BD0D8 /* Future Innovators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Future Innovators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D5CCF2222A530B005BD0D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +68,15 @@
 		04D5CD10222A530E005BD0D8 /* Future_InnovatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_InnovatorsUITests.swift; sourceTree = "<group>"; };
 		04D5CD12222A530E005BD0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		104BC5DAF8E651739A0E2C19 /* Pods-Future InnovatorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future InnovatorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Future InnovatorsTests/Pods-Future InnovatorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B5687335D995B685BC5A0E9 /* Pods-Future InnovatorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future InnovatorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Future InnovatorsTests/Pods-Future InnovatorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DFC6C2C4D94F0D8DBEB6444 /* Pods-Future InnovatorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future InnovatorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Future InnovatorsUITests/Pods-Future InnovatorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69B1C861156FF0A5DA9FFC4B /* Pods_Future_InnovatorsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Future_InnovatorsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852DF73D0FD5F99EF41769B3 /* Pods_Future_InnovatorsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Future_InnovatorsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB593197683D81493EF9EBF6 /* Pods-Future InnovatorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future InnovatorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Future InnovatorsUITests/Pods-Future InnovatorsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E64C4A2F59AE9B89850CDA73 /* Pods-Future Innovators.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future Innovators.release.xcconfig"; path = "Pods/Target Support Files/Pods-Future Innovators/Pods-Future Innovators.release.xcconfig"; sourceTree = "<group>"; };
+		FA70ED3A65E3C6F09252396D /* Pods-Future Innovators.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Future Innovators.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Future Innovators/Pods-Future Innovators.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0737DCC10BFB71607781C9 /* Pods_Future_Innovators.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Future_Innovators.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E084E3C7FB092B32302466 /* Pods_Future_Innovators.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6695626F0C2758ACEBB9369F /* Pods_Future_InnovatorsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96D563C48C528EFEDFF8C55 /* Pods_Future_InnovatorsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +114,8 @@
 				04D5CD04222A530E005BD0D8 /* Future InnovatorsTests */,
 				04D5CD0F222A530E005BD0D8 /* Future InnovatorsUITests */,
 				04D5CCEE222A530B005BD0D8 /* Products */,
+				A04B3A459316A3138561AC7B /* Pods */,
+				6B66D47DD9561867BB45D6C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +138,8 @@
 				048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */,
 				041AC8EB222ABFB00066637F /* SelectRoomViewController.swift */,
 				04D5CCF4222A530B005BD0D8 /* Main.storyboard */,
+				04A44E31222BA959002126C3 /* BookingConfirmationViewController.swift */,
+				04A44E33222BA9C9002126C3 /* ConfirmRoomViewController.swift */,
 				046040A9222B3E550070DD88 /* RoomControlViewController.swift */,
 				04A44E2F222B9509002126C3 /* HotelServiceViewController.swift */,
 				04D5CCF7222A530E005BD0D8 /* Assets.xcassets */,
@@ -146,6 +169,29 @@
 			path = "Future InnovatorsUITests";
 			sourceTree = "<group>";
 		};
+		6B66D47DD9561867BB45D6C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD0737DCC10BFB71607781C9 /* Pods_Future_Innovators.framework */,
+				852DF73D0FD5F99EF41769B3 /* Pods_Future_InnovatorsTests.framework */,
+				69B1C861156FF0A5DA9FFC4B /* Pods_Future_InnovatorsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A04B3A459316A3138561AC7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA70ED3A65E3C6F09252396D /* Pods-Future Innovators.debug.xcconfig */,
+				E64C4A2F59AE9B89850CDA73 /* Pods-Future Innovators.release.xcconfig */,
+				2B5687335D995B685BC5A0E9 /* Pods-Future InnovatorsTests.debug.xcconfig */,
+				104BC5DAF8E651739A0E2C19 /* Pods-Future InnovatorsTests.release.xcconfig */,
+				4DFC6C2C4D94F0D8DBEB6444 /* Pods-Future InnovatorsUITests.debug.xcconfig */,
+				DB593197683D81493EF9EBF6 /* Pods-Future InnovatorsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D5CD15222A530E005BD0D8 /* Build configuration list for PBXNativeTarget "Future Innovators" */;
 			buildPhases = (
+				4808F4B56277A21E36F3A661 /* [CP] Check Pods Manifest.lock */,
 				04D5CCE9222A530B005BD0D8 /* Sources */,
 				04D5CCEA222A530B005BD0D8 /* Frameworks */,
 				04D5CCEB222A530B005BD0D8 /* Resources */,
+				F2DDD35E3374F2DF70D6EC5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D5CD18222A530E005BD0D8 /* Build configuration list for PBXNativeTarget "Future InnovatorsTests" */;
 			buildPhases = (
+				8AB0E0D44E168C10DFD3F5AE /* [CP] Check Pods Manifest.lock */,
 				04D5CCFD222A530E005BD0D8 /* Sources */,
 				04D5CCFE222A530E005BD0D8 /* Frameworks */,
 				04D5CCFF222A530E005BD0D8 /* Resources */,
@@ -188,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D5CD1B222A530E005BD0D8 /* Build configuration list for PBXNativeTarget "Future InnovatorsUITests" */;
 			buildPhases = (
+				713A6FA678AE097ED64F7B1D /* [CP] Check Pods Manifest.lock */,
 				04D5CD08222A530E005BD0D8 /* Sources */,
 				04D5CD09222A530E005BD0D8 /* Frameworks */,
 				04D5CD0A222A530E005BD0D8 /* Resources */,
@@ -273,6 +323,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4808F4B56277A21E36F3A661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Future Innovators-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		713A6FA678AE097ED64F7B1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Future InnovatorsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB0E0D44E168C10DFD3F5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Future InnovatorsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DDD35E3374F2DF70D6EC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Future Innovators/Pods-Future Innovators-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Future Innovators/Pods-Future Innovators-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D5CCE9222A530B005BD0D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,10 +425,12 @@
 			files = (
 				041AC8EC222ABFB00066637F /* SelectRoomViewController.swift in Sources */,
 				046040A7222AF46C0070DD88 /* SelectRoomCollectionViewCell.swift in Sources */,
+				04A44E34222BA9C9002126C3 /* ConfirmRoomViewController.swift in Sources */,
 				04D5CD1F222A83D7005BD0D8 /* SignUpViewController.swift in Sources */,
 				04D5CCF3222A530B005BD0D8 /* ViewController.swift in Sources */,
 				048F2379222A9D5B00A8BFE4 /* BookingViewController.swift in Sources */,
 				04D5CCF1222A530B005BD0D8 /* AppDelegate.swift in Sources */,
+				04A44E32222BA959002126C3 /* BookingConfirmationViewController.swift in Sources */,
 				04A44E30222B9509002126C3 /* HotelServiceViewController.swift in Sources */,
 				046040AA222B3E550070DD88 /* RoomControlViewController.swift in Sources */,
 			);
@@ -458,6 +605,7 @@
 		};
 		04D5CD16222A530E005BD0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA70ED3A65E3C6F09252396D /* Pods-Future Innovators.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +624,7 @@
 		};
 		04D5CD17222A530E005BD0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64C4A2F59AE9B89850CDA73 /* Pods-Future Innovators.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +643,7 @@
 		};
 		04D5CD19222A530E005BD0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5687335D995B685BC5A0E9 /* Pods-Future InnovatorsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +665,7 @@
 		};
 		04D5CD1A222A530E005BD0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104BC5DAF8E651739A0E2C19 /* Pods-Future InnovatorsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +687,7 @@
 		};
 		04D5CD1C222A530E005BD0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFC6C2C4D94F0D8DBEB6444 /* Pods-Future InnovatorsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +708,7 @@
 		};
 		04D5CD1D222A530E005BD0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB593197683D81493EF9EBF6 /* Pods-Future InnovatorsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
