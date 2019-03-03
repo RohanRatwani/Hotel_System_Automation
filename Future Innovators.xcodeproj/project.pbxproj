@@ -15,6 +15,7 @@
 		04A44E30222B9509002126C3 /* HotelServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A44E2F222B9509002126C3 /* HotelServiceViewController.swift */; };
 		04A44E32222BA959002126C3 /* BookingConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A44E31222BA959002126C3 /* BookingConfirmationViewController.swift */; };
 		04A44E34222BA9C9002126C3 /* ConfirmRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A44E33222BA9C9002126C3 /* ConfirmRoomViewController.swift */; };
+		04A44E36222BAFC1002126C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A44E35222BAFC1002126C3 /* GoogleService-Info.plist */; };
 		04D5CCF1222A530B005BD0D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */; };
 		04D5CCF3222A530B005BD0D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5CCF2222A530B005BD0D8 /* ViewController.swift */; };
 		04D5CCF6222A530B005BD0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5CCF4222A530B005BD0D8 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		04A44E2F222B9509002126C3 /* HotelServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelServiceViewController.swift; sourceTree = "<group>"; };
 		04A44E31222BA959002126C3 /* BookingConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirmationViewController.swift; sourceTree = "<group>"; };
 		04A44E33222BA9C9002126C3 /* ConfirmRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRoomViewController.swift; sourceTree = "<group>"; };
+		04A44E35222BAFC1002126C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04D5CCED222A530B005BD0D8 /* Future Innovators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Future Innovators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D5CCF2222A530B005BD0D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				04D5CCF0222A530B005BD0D8 /* AppDelegate.swift */,
 				04D5CCF2222A530B005BD0D8 /* ViewController.swift */,
 				04D5CD1E222A83D7005BD0D8 /* SignUpViewController.swift */,
+				04A44E35222BAFC1002126C3 /* GoogleService-Info.plist */,
 				048F2378222A9D5B00A8BFE4 /* BookingViewController.swift */,
 				041AC8EB222ABFB00066637F /* SelectRoomViewController.swift */,
 				04D5CCF4222A530B005BD0D8 /* Main.storyboard */,
@@ -302,6 +305,7 @@
 			files = (
 				04D5CCFB222A530E005BD0D8 /* LaunchScreen.storyboard in Resources */,
 				04D5CCF8222A530E005BD0D8 /* Assets.xcassets in Resources */,
+				04A44E36222BAFC1002126C3 /* GoogleService-Info.plist in Resources */,
 				046040A8222AF46C0070DD88 /* SelectRoomCollectionViewCell.xib in Resources */,
 				04D5CCF6222A530B005BD0D8 /* Main.storyboard in Resources */,
 			);

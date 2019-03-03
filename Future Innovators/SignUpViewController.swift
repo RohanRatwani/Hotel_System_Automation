@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
 
@@ -55,4 +56,27 @@ class SignUpViewController: UIViewController {
         let selectedDate: String = dateFormatter.string(from: sender.date)
         dateOfBirthTextField.text = selectedDate
     }
+    
+    
+    @IBAction func btnSignUpClicked(_ sender: Any) {
+        let usersRef = Database.database().reference(withPath: "users")
+        let id = usersRef.childByAutoId()
+        id.setValue(["name" : self.fullNameTextField.text!,
+                   "number" : self.phoneNumber.text!,
+                   "email" : self.emailTextField.text!,
+                   "password" : self.passwordTextField.text!,
+                   "birthDate" : self.dateOfBirthTextField.text!
+        ]) {
+            (error:Error?, ref:DatabaseReference) in
+            if let error = error {
+                print("Data could not be saved: \(error).")
+            } else {
+                UserDefaults.standard.set(id.key as! String, forKey: "userID")
+                UserDefaults.standard.set(true, forKey: "isLoggedIn")
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BookingViewController")
+                self.present(vc, animated: true, completion: nil)
+            }
+        }
+    }
+    
 }

@@ -80,4 +80,11 @@ class HotelServiceViewController: UIViewController {
         let request = NSURLRequest(url: requestURL! as URL)
         webView.loadRequest(request as URLRequest)
     }
+    
+    @IBAction func logout(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: "isLoggedIn")
+    }
+    
+    
+    
 }
